@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1520e12a47e40210a3261af2e16d43aa" label="Chapters" max_length="40" name="x_1325078_anime_chapters" type="collection">
+        <element label="Book" max_length="32" name="book" reference="x_1325078_anime_books" type="reference"/>
+        <element label="Chapter" max_length="11" name="chapter" type="integer"/>
+        <element label="Coins" max_length="11" name="coins" type="integer"/>
+        <element label="Content" max_length="8000" name="content" type="html"/>
+        <element label="Description" max_length="255" name="description" type="string"/>
+        <element label="Image" max_length="40" name="image" type="file_attachment"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Rating" max_length="15" name="rating" type="decimal"/>
+        <element label="Title" max_length="255" name="title" type="string"/>
+        <element default="0" label="Total Sale" max_length="11" name="total_sale" type="integr"/>
+        <element label="URL" max_length="255" name="url" type="string"/>
+        <index name="index">
+            <element name="book"/>
+        </index>
+    </element>
+</database>

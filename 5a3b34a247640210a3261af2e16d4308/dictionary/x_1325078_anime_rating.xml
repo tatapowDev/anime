@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3d956af247644210a3261af2e16d43f1" label="Rating" max_length="40" name="x_1325078_anime_rating" type="collection">
+        <element label="Book" max_length="32" name="book" reference="x_1325078_anime_books" type="reference"/>
+        <element label="Chapter" max_length="32" name="chapter" reference="x_1325078_anime_chapters" type="reference"/>
+        <element label="Comments" max_length="4000" name="comments" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Rating" max_length="5" name="rating" type="integer"/>
+        <index name="index">
+            <element name="book"/>
+        </index>
+        <index name="index2">
+            <element name="chapter"/>
+        </index>
+    </element>
+</database>

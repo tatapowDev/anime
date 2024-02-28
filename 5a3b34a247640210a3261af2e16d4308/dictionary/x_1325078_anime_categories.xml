@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c08c8af247e04210a3261af2e16d43fd" label="Categories" max_length="40" name="x_1325078_anime_categories" type="collection">
+        <element label="Content" max_length="8000" name="content" type="html"/>
+        <element label="Description" max_length="255" name="description" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Reference" max_length="32" name="reference" reference="x_1325078_anime_categories" type="reference"/>
+        <element label="Title" max_length="255" name="title" type="string"/>
+        <element label="URL" max_length="255" name="url" type="string"/>
+        <index name="index">
+            <element name="reference"/>
+        </index>
+    </element>
+</database>

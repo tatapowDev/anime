@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Books</name>
+        <order>100</order>
+        <roles>x_1325078_anime.books_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 01:16:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6eb099e647a40210a3261af2e16d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Books</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Anime" source="x_1325078_anime">5a3b34a247640210a3261af2e16d4308</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Anime">5a3b34a247640210a3261af2e16d4308</sys_scope>
+        <sys_update_name>sys_app_application_6eb099e647a40210a3261af2e16d43f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 01:16:35</sys_updated_on>
+        <title>Books</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Anime">5a3b34a247640210a3261af2e16d4308</application>
+        <file_path/>
+        <instance_id>40c8474e1bfa7d90c84543f4bd4bcb00</instance_id>
+        <instance_name>dev230083</instance_name>
+        <name>sys_app_application_6eb099e647a40210a3261af2e16d43f2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Books</name><order>100</order><roles>x_1325078_anime.books_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-27 01:16:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6eb099e647a40210a3261af2e16d43f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Books</sys_name><sys_overrides/><sys_package display_value="Anime" source="x_1325078_anime">5a3b34a247640210a3261af2e16d4308</sys_package><sys_policy/><sys_scope display_value="Anime">5a3b34a247640210a3261af2e16d4308</sys_scope><sys_update_name>sys_app_application_6eb099e647a40210a3261af2e16d43f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-27 01:16:35</sys_updated_on><title>Books</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1951793387</payload_hash>
+        <record_name>Books</record_name>
+        <reverted_from/>
+        <source>5447c9ee47640210a3261af2e16d43d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 01:16:35</sys_created_on>
+        <sys_id>aeb09d2a47a40210a3261af2e16d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18de8228e470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 01:16:35</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>e2b09d2a2aa40210618e7ff05dfdc5e0</update_guid>
+        <update_guid_history>e2b09d2a2aa40210618e7ff05dfdc5e0:-1951793387</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Books">ff9111aa47a40210a3261af2e16d4354</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 01:20:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>0374ccad7c4f4a3984897581f71ee3b9</sys_id>
+        <sys_metadata>6eb099e647a40210a3261af2e16d43f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Books</sys_name>
+        <sys_package display_value="Anime" source="x_1325078_anime">5a3b34a247640210a3261af2e16d4308</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Anime">5a3b34a247640210a3261af2e16d4308</sys_scope>
+        <sys_scope_delete display_value="">88eb4d6c32e04f249b0e008b81d07d24</sys_scope_delete>
+        <sys_update_name>sys_app_application_6eb099e647a40210a3261af2e16d43f2</sys_update_name>
+        <sys_update_version display_value="sys_app_application_6eb099e647a40210a3261af2e16d43f2">aeb09d2a47a40210a3261af2e16d43e0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 01:20:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
