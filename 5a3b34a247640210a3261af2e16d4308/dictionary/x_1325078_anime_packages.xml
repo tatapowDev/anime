@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8ea096f647e04210a3261af2e16d43bd" label="Packages" max_length="40" name="x_1325078_anime_packages" type="collection">
+        <element label="active" max_length="40" name="active" type="boolean"/>
+        <element label="Coins" max_length="11" name="coins" type="integer"/>
+        <element label="Color" max_length="40" name="color" type="color"/>
+        <element label="Description" max_length="8000" name="description" type="html"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Price" max_length="20" name="price" type="currency"/>
+        <element label="Title" max_length="255" name="title" type="string"/>
+        <element label="Total Sale" max_length="40" name="total_sale" type="integer"/>
+        <element label="URL" max_length="191" name="url" type="string"/>
+    </element>
+</database>

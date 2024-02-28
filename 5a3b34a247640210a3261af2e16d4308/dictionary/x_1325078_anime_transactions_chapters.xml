@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4ce49a3e47e04210a3261af2e16d432c" extends="task" label="Transactions  Chapters" max_length="40" name="x_1325078_anime_transactions_chapters" type="collection">
+        <element label="Coins" max_length="40" name="coins" type="integer"/>
+        <element label="Total Chapters" max_length="40" name="total_chapters" type="integer"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+    </element>
+</database>

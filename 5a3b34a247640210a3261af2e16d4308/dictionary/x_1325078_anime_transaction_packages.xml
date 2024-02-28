@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9bc8d2f247244210a3261af2e16d43be" extends="task" label="Transaction Packages" max_length="40" name="x_1325078_anime_transaction_packages" type="collection">
+        <element label="Coins" max_length="40" name="coins" type="integer"/>
+        <element label="Package" max_length="32" name="package" reference="x_1325078_anime_packages" type="reference"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+    </element>
+</database>

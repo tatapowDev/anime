@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="76e6da3247244210a3261af2e16d43ad" label="Transaction Chapter Items" max_length="40" name="x_1325078_anime_transaction_chapter_items" type="collection">
+        <element label="Book" max_length="32" name="book" reference="x_1325078_anime_books" type="reference"/>
+        <element label="Chapter" max_length="32" name="chapter" reference="x_1325078_anime_chapters" type="reference"/>
+        <element label="Coin" max_length="40" name="coin" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Transaction" max_length="32" name="transaction" reference="x_1325078_anime_transactions_chapters" type="reference"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="book"/>
+        </index>
+        <index name="index2">
+            <element name="chapter"/>
+        </index>
+        <index name="index3">
+            <element name="transaction"/>
+        </index>
+        <index name="index4">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

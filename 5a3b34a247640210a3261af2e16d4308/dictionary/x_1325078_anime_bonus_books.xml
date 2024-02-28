@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="82cf927e47244210a3261af2e16d4338" label="Bonus Books" max_length="40" name="x_1325078_anime_bonus_books" type="collection">
+        <element label="Author" max_length="255" name="author" type="string"/>
+        <element label="Content" max_length="8000" name="content" type="html"/>
+        <element label="Description" max_length="255" name="description" type="string"/>
+        <element label="Image" max_length="40" name="image" type="file_attachment"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Release Year" max_length="4" name="release_year" type="string"/>
+        <element label="Title" max_length="255" name="title" type="string"/>
+        <element label="URL" max_length="255" name="url" type="string"/>
+        <element label="Uuid" max_length="255" name="uuid" type="string"/>
+        <element label="Views" max_length="11" name="views" type="integer"/>
+    </element>
+</database>

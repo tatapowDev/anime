@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="076bb82647640210a3261af2e16d431b" label="Banners" max_length="40" name="x_1325078_anime_banner" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Image" max_length="40" name="image" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="255" name="title" type="string"/>
+        <element label="URL" max_length="191" name="url" type="string"/>
+    </element>
+</database>
