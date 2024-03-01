@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope) {
+  /* widget controller */
+  var c = this;
+	console.log(c.data.avatar);
+  $scope.user_avatar = c.data.avatar;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.anime_menu_top {&#13;
+  background-color: $anime_white;&#13;
+}&#13;
+&#13;
+.anime_menu_top_logo {&#13;
+  width: 80px;&#13;
+}&#13;
+&#13;
+.anime_menu_top_form button {&#13;
+  border-top: 1px solid #939393;&#13;
+  border-top-left-radius: 0;&#13;
+  border-bottom-left-radius: 0;&#13;
+  border-right: 1px solid #939393;&#13;
+  border-bottom: 1px solid #939393;&#13;
+}&#13;
+&#13;
+.anime_menu_top_user_info,&#13;
+.anime_menu_top_user_img,&#13;
+.anime_menu_top_user_cart {&#13;
+  margin-left: 15px;&#13;
+}&#13;
+&#13;
+.anime_menu_top_user_img img {&#13;
+  width: 50px;&#13;
+  border-radius: 50%;&#13;
+  border: 3px solid $anime_red;&#13;
+}&#13;
+&#13;
+.anime_menu_top_user_info a:hover,&#13;
+.anime_menu_top_user_info a:active,&#13;
+.anime_menu_top_user_cart a:hover,&#13;
+.anime_menu_top_user_cart a:active{&#13;
+  color: #F06A6A;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>an_header</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Anime Header</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+  var avatarFinder = GlideAvatarFinder.getAvatarPath(gs.getUserID());
+
+  data.avatar = encodeURI(avatarFinder.toString());
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-28 23:26:57</sys_created_on>
+        <sys_id>c2aa834747a88210a3261af2e16d435a</sys_id>
+        <sys_mod_count>62</sys_mod_count>
+        <sys_name>Anime Header</sys_name>
+        <sys_package display_value="Anime" source="x_1325078_anime">5a3b34a247640210a3261af2e16d4308</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Anime">5a3b34a247640210a3261af2e16d4308</sys_scope>
+        <sys_update_name>sp_header_footer_c2aa834747a88210a3261af2e16d435a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-29 05:24:25</sys_updated_on>
+        <template><![CDATA[<div>
+  <div class="anime_menu_top py-15">
+    <div class="container">
+      <div class="row d-flex flex-wrap justify-content-space-between align-items-center">
+        <div class="col-md-4">
+          <figure>
+            <img ng-src="00bf2783476c8210a3261af2e16d4341.iix" class="img-responsive anime_menu_top_logo"/>
+          </figure>
+        </div>
+
+        <div class="col-md-4 d-flex justify-content-center anime_menu_top_form">
+          <div class="w-100">
+            <div class="input-group">
+              <input type="text" class="form-control" name="search" placeholder="Pesquise seu livro favorito"/>
+              <div class="input-group-btn">
+                <button class="btn bg-red text-white" type="button"><i class="fa fa-search"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="anime_menu_top_user col-md-4 d-flex justify-content-end text-right align-items-center">
+          <div class="anime_menu_top_user_info fw-bold">
+            <div class="d-block"> Faça seu <a class="text-red" ng-href="#"> Login </a> ou </div> Crie seu <a class="text-red" ng-href="#"> Cadastro </a>
+          </div>
+
+          <div class="anime_menu_top_user_img">
+            <figure>
+            <img ng-src="{{ ::user_avatar }}" class="img-responsive"/>
+            </figure>
+          </div>
+          <div class="anime_menu_top_user_cart">
+            <a class="text-red fw-bold" ng-href="#"><i class="fa fa-shopping-cart"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-static-top navbar-inverse bg-inverse">
+    <div class="container">
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+
+      <div class="flex-wrap collapse navbar-collapse justify-content-center" id="bs-example-navbar-collapse-1" style="display: flex !important;">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Inicio </a></li>
+          <li><a href="#">Livros</a></li>
+          <li><a href="#">Categorias </a></li>
+          <li><a href="#">Pacotes</a></li>
+          <li><a href="#">Contato </a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</div>]]></template>
+    </sp_header_footer>
+</record_update>
